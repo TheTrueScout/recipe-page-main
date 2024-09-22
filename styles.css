@@ -269,7 +269,7 @@ header {
 .attribution a { color: hsl(228, 45%, 44%); }
 
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 40.625rem) {
   main {
     padding: 0;
   }
