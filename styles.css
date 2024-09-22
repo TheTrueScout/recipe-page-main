@@ -201,64 +201,37 @@ header {
   list-style: none;
 }
 
-.instructions ol > li:nth-of-type(1)::before {
-  content: '1.';
+.instructions ol > li::before {
   position: absolute;
   left: -2rem;
   top: 0;
   bottom: 0;
   margin: auto 0;
   color: var(--Brown800);
+}
+
+.instructions ol > li:nth-of-type(1)::before {
+  content: '1.';
 }
 
 .instructions ol > li:nth-of-type(2)::before {
   content: '2.';
-  position: absolute;
-  left: -2rem;
-  top: 0;
-  bottom: 0;
-  margin: auto 0;
-  color: var(--Brown800);
 }
 
 .instructions ol > li:nth-of-type(3)::before {
   content: '3.';
-  position: absolute;
-  left: -2rem;
-  top: 0;
-  bottom: 0;
-  margin: auto 0;
-  color: var(--Brown800);
 }
 
 .instructions ol > li:nth-of-type(4)::before {
   content: '4.';
-  position: absolute;
-  left: -2rem;
-  top: 0;
-  bottom: 0;
-  margin: auto 0;
-  color: var(--Brown800);
 }
 
 .instructions ol > li:nth-of-type(5)::before {
   content: '5.';
-  position: absolute;
-  left: -2rem;
-  top: 0;
-  bottom: 0;
-  margin: auto 0;
-  color: var(--Brown800);
 }
 
 .instructions ol > li:nth-of-type(6)::before {
   content: '6.';
-  position: absolute;
-  left: -2rem;
-  top: 0;
-  bottom: 0;
-  margin: auto 0;
-  color: var(--Brown800);
 }
 
 /* nutrition */
